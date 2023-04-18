@@ -5,7 +5,7 @@ minimoAbono = 0
 
 
 while True:
-    salario = float (input("Digite o salario. (Aperte 0 e de enter para cancelar!)"))
+    salario = float (input("\nDigite o salario. (Aperte 0 e de enter para cancelar!)"))
     if salario == 0: 
         break
     else:   
@@ -21,10 +21,10 @@ while True:
             maiorAbono = abono
 
         print ('Salario - Abono ')
-        print("R$", salario, "- R$",abono )
+        print("R$", salario, "- R$",abono, "\n")
 
-print("\nProjeção de Gastos com Abono")
+print("\n\nProjeção de Gastos com Abono")
 print("============================")
 print("\nTotal gasto com abono: R$", totalAbono)
 print("Valor mínimo pago a", minimoAbono, "colaboradores" )
-print("Maior valor de abono pago: R$", maiorAbono)
+print("Maior valor de abono pago: R$", maiorAbono, "\n\n")
