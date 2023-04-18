@@ -25,6 +25,6 @@ while True:
 
 print("\nProjeção de Gastos com Abono")
 print("============================")
-print("Total gasto com abono: R$", totalAbono)
+print("\nTotal gasto com abono: R$", totalAbono)
 print("Valor mínimo pago a", minimoAbono, "colaboradores" )
 print("Maior valor de abono pago: R$", maiorAbono)
