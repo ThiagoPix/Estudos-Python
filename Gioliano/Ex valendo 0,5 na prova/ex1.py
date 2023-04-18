@@ -1,5 +1,5 @@
 totalAbono = 0
-funcionariototal = 0
+funcionarioTotal = 0
 maiorAbono = 0
 minimoAbono = 0
 
@@ -13,6 +13,8 @@ while True:
         if abono < 100 and abono >0:
             abono = 100
 
+        funcionarioTotal += 1
+
         totalAbono = totalAbono + abono
         if abono == 100:
             minimoAbono += 1
@@ -25,6 +27,7 @@ while True:
 
 print("\n\nProjeção de Gastos com Abono")
 print("============================")
-print("\nTotal gasto com abono: R$", totalAbono)
+print("\nForam processados", funcionarioTotal, "colaboradores")
+print("Total gasto com abono: R$", totalAbono)
 print("Valor mínimo pago a", minimoAbono, "colaboradores" )
 print("Maior valor de abono pago: R$", maiorAbono, "\n\n")
